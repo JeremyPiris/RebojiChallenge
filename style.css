@@ -1,0 +1,227 @@
+/* ALL */
+
+.total_body {
+  min-height: 75vh;
+  background-color: #1DA39A;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: #343A40;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+#barre_de_nav {
+  height: 56px;
+  background: #343A40;
+}
+
+.bandeau_titre {
+  background-color: #1DA39A;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#titre_principal {
+  color: #343A40;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+.row {
+  margin : 10px;
+}
+
+.row a {
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: #343A40;
+}
+
+.container-fluid {
+  background-color: #1DA39A;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-bottom: 50px;
+}
+
+
+/* index.html */
+
+.button {
+  text-decoration: none;
+  color: #343A40;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #343A40;
+}
+
+#emoji_main {
+  font-size: 40px;
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+#theme_card {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 4px 4px 4px;
+  text-align: center;
+  padding: 10px;
+}
+
+#netflix {
+  height: 60px;
+  width: 65px;
+}
+
+.contact_text {
+  text-align: center;
+  background-color: #1DA39A;
+  margin-bottom: -20px;
+  padding-bottom: 30px;
+}
+
+.contact_text a {
+  color: white;
+}
+
+/* CARDS */
+
+.cardYT {
+  height: 200px;
+  background-color: white;
+  border: #343A40 1px solid;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 4px 4px 4px;
+}
+
+input, .toggle{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  outline: none;
+  z-index: 1;
+
+}
+
+.toggle img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
+  outline: none;
+  z-index: 1;
+  border: 3px solid #E7EAED;
+  padding: 3px;
+}
+
+input {
+  opacity: 0;
+}
+
+.toggle img, .toggle {
+  pointer-events: none;
+  border-radius: 50%;
+  background: white;
+  transition: 0.5s;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  box-shadow: 0 0 0 0px #E7EAED;
+
+}
+
+input:checked ~ .toggle img {
+  box-shadow: 0 0 0 500px #E7EAED;
+
+  z-index: 1;
+}
+
+input:checked ~ .toggle {
+  box-shadow: 0 0 0 500px #E7EAED;
+
+  z-index: 1;
+}
+
+.imgBx {
+  margin: auto;
+  margin-top: 5px;
+}
+
+.imgBx img {
+  height: 85%;
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.details {
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: 0.5s;
+  opacity: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+input:checked ~ .details {
+  opacity: 1;
+  z-index: 2;
+}
+
+.navbar a {
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: #343A40;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #343A40;
+  color: white;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 9px;
+}
+
+footer h6 {
+  font-family: sans-serif;
+  color: white;
+}
